@@ -205,7 +205,7 @@ nav a:hover {
 
 .page {
     /* margin: 0 auto 0; */
-    max-width: 1000px;
+    /* max-width: 1000px; */
     /* margin-top: 3em; */
     width: 100%;
     /* max-width: 900px; */
@@ -236,11 +236,23 @@ nav a:hover {
     background-color: transparent;
 }
 
-@media (max-width: 2000px) {
+.text {
+    max-width: 1000px;
+}
+
+#top {
+    display: block;
+}
+
+#top:hover {
+    background: rgba(0, 0, 0, 0.064);
+}
+
+/* @media (max-width: 2000px) {
     #top {
         display: block;
     }
-}
+} */
 
 @media (max-width: 600px) {
     .page {
