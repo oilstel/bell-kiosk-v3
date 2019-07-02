@@ -236,7 +236,7 @@ nav a:hover {
     background-color: transparent;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 2000px) {
     #top {
         display: block;
     }
