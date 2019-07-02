@@ -7,7 +7,7 @@
     <div class="page">
         <h1><?= $page->title() ?></h1>
         <div class="text">
-        <?= $page->intro()->kt() ?>
+        <?= $page->text()->kt() ?>
         </div>
 
         <button id="ring-the-bells">Ring the bells</button>
