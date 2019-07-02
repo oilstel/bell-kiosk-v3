@@ -1,0 +1,8 @@
+title: Default File
+
+fields:
+  hide:
+    label: Hidden
+    type: toggle
+    text: Hide from page
+    default: false

@@ -1,0 +1,54 @@
+title: Page
+
+tabs:
+  content:
+    columns:
+      left:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              intro:
+                label: Intro
+                type: textarea
+                size: medium
+              meta:
+                label: Meta
+                type: textarea
+                size: medium
+              text:
+                label: Body
+                type: textarea
+                size: large
+      right:
+        width: 1/3
+        sections:
+          sidebar:
+            type: fields
+            fields:
+              cover:
+                headline: Icon
+                template: cover
+                type: files
+                query: page.images
+                multiple: false
+                max: 1
+                layout: cards
+              favicon:
+                headline: Cover
+                template: cover
+                type: files
+                query: page.images
+                multiple: false
+                max: 1
+                layout: cards
+              bg_color:
+                label: Background Color
+                type: color
+                editableAlpha: false # (optional) if set to false, alpha value controls are not displayed
+                default: "rgb(196, 196, 196)"
+  gallery:
+    label: images
+    preset: files
+
